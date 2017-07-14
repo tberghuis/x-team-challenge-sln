@@ -7,9 +7,13 @@ var session = {
   lastMessageHash: process.argv[3]
 };
 
-if (!session.username || !session.lastMessageHash) {
+if (!session.username) {
   console.log("Usage: node index.js <username> <hash>");
   process.exit(0);
+}
+
+if (!session.lastMessageHash) {
+  session.lastMessageHash = null;
 }
 
 // 1. load the database

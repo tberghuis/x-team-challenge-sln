@@ -4,4 +4,6 @@ from: @theRealElmo
 here's the message
 
 $ node index.js theRealElmo
-Usage: node index.js <username> <hash>
+from: @alice
+---
+hello, I would like you to join my professional network on linkedin
