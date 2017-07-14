@@ -2,3 +2,7 @@ $ node index.js bigbird88 60b725f10c9c85c70d97880dfe8191b3
 from: @theRealElmo
 ---
 here's the message
+
+$ node index.js theRealElmo
+(node:17378) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 2): TypeError: Cannot read property 'hash' of undefined
+(node:17378) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
