@@ -1,10 +1,4 @@
-$ node --inspect-brk index.js bigbird88 60b725f10c9c85c70d97880dfe8191b3
-Debugger listening on ws://127.0.0.1:9229/a917ae0f-993d-459a-a7e9-4b722d13e3a0
-For help see https://nodejs.org/en/docs/inspector
-Debugger attached.
-inbox
+$ node index.js bigbird88 60b725f10c9c85c70d97880dfe8191b3
 from: @theRealElmo
 ---
-�w^~)�
-(node:14835) [DEP0013] DeprecationWarning: Calling an asynchronous function without callback is deprecated.
-Waiting for the debugger to disconnect...
+here's the message

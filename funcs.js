@@ -88,15 +88,21 @@ module.exports.findNextMessage = function(inbox, lastHash) {
     }
   }
 
-  console.log("inbox");
-
-  // read and decode the message
-  return (
-    "from: " +
-    decode(inbox.messages[found].from) +
-    "\n---\n" +
-    decode(
-      fs.readFile(path.join(inbox.dir, inbox.messages[found].hash), "utf8")
-    )
-  );
+  return new Promise((resolve, reject) => {
+    fs.readFile(
+      path.join(inbox.dir, inbox.messages[found].hash),
+      "utf8",
+      function(err, data) {
+        if (err) {
+          reject(err);
+        }
+        resolve(
+          "from: " +
+            decode(inbox.messages[found].from) +
+            "\n---\n" +
+            decode(data)
+        );
+      }
+    );
+  });
 };
