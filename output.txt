@@ -7,3 +7,8 @@ $ node index.js theRealElmo
 from: @alice
 ---
 hello, I would like you to join my professional network on linkedin
+
+$ node index.js alice 3b5d5c3712955042212316173ccf37be
+from: @theRealElmo
+---
+secret message from me to you
