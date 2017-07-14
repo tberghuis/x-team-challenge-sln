@@ -1,3 +1,6 @@
+Solution: lines 2-4 of output.txt
+====
+
 X-Team Challenge
 ====
 
