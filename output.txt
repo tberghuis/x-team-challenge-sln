@@ -12,3 +12,8 @@ $ node index.js alice 3b5d5c3712955042212316173ccf37be
 from: @theRealElmo
 ---
 secret message from me to you
+
+$ node index.js bigbird88
+from: @theRealElmo
+---
+new phone who dis?

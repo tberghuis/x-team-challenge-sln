@@ -12,3 +12,6 @@ echo | tee -a output.txt
 echo '$ node index.js alice 3b5d5c3712955042212316173ccf37be' | tee -a output.txt
 node index.js alice 3b5d5c3712955042212316173ccf37be |& tee -a output.txt
 
+echo | tee -a output.txt
+echo '$ node index.js bigbird88' | tee -a output.txt
+node index.js bigbird88 |& tee -a output.txt
